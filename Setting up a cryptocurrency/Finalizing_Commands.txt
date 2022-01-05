@@ -1,0 +1,31 @@
+
+
+
+
+
+Finalizing commands 
+
+
+Line for printing genesis block:
+./Turtlecoind —print-genesis-tx
+
+Line for opening wallet:
+./zedwallet —scan-coinbase-transactions
+
+Line for running daemon:
+./TurtleCoind
+Or in your case most likely 
+./MMPLcoind
+
+Line for running miner:
+./miner
+
+
+Lines for compiling the cloned repo:
+Cd MMPLcoin
+Mkdir build 
+Cd build 
+Cmake ..
+Make 
+
+The above lines are for both local and non local machines 

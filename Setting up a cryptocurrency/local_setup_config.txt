@@ -1,0 +1,31 @@
+Local setup and config 
+
+
+Dependencies: 
+
+XCode
+CLANG
+Brew
+Cmake (3.8, higher)
+GNU Make
+Git
+
+
+Command lines: 
+1:
+which brew || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+2:
+brew install --force cmake boost llvm@8 openssl
+
+3:
+brew link --overwrite llvm@8
+
+4:
+ln -s /usr/local/opt/llvm@8 /usr/local/opt/llvm
+
+5:
+export CC=/usr/local/opt/llvm@8/bin/clang
+
+6:
+export CXX=/usr/local/opt/llvm@8/bin/clang++

@@ -1,0 +1,53 @@
+Steps for setting up a cryptocurrency 
+#1: Preparations 
+Create node server with sudo accounts details:
+Ssh into server 
+Make new user  
+Add sudo privileges
+Su user into new user  
+Setup environment on those servers 
+Repeat this step again as you need two node servers
+
+#2: getting and compiling the fork config  https://github.com/turtlecoin/turtlecoin
+fork turtle coin 
+Rename repo 
+Clone onto local machine 
+Clone onto nodes 
+install local requirements
+Build on local and node machines
+
+#3: repo configuration 
+Name of coin/version number -
+Difficulty target 
+Public address
+Unlock window 
+Money supply 
+Emission speed
+Decimal points 
+Min fee
+Dust 
+Upgrade height 
+Fork height 
+Ports 
+Network id 
+Seed node ips 
+Remove check points 
+Wallet prefix
+Address length 
+
+#4: final config 
+Generate genisis block 
+Check wallet address length 
+Recompile 
+Push to github
+
+#5: building on the nodes 
+Git pull config file onto nodesie
+Compile the repo 
+Run deamon on both servers
+
+#6: deamon on local machine 
+run the the deamon on local machine 
+Create wallet address 
+Run miner - input the wallet address you just made 
+Go back into wallet to check transactions are coming through 
